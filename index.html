@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="./css/home.css">
+
+</head>
+<body>
+    <header>
+        <h1>To-Do List</h1>
+        <form id="new-todo-list">
+            <input 
+                type="text" 
+                id="new-todo-input" 
+                placeholder="What have you got planned for today?"/>
+
+            <input 
+                type="submit" 
+                value="Add"
+                id="new-todo-submit"
+                readonly/>
+        </form>
+    </header>
+
+    <main>
+        <section class="todo-list">
+            <h2>To-Do</h2>
+
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input 
+                            type="text" 
+                            class="text" 
+                            value="my to-do"/>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
